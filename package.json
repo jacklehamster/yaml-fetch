@@ -4,7 +4,7 @@
    "description": "Made with create-react-library",
    "author": "jacklehamster",
    "license": "MIT",
-   "repository": "jacklehamster/dok-lib",
+   "repository": "jacklehamster/yaml-fetch",
    "main": "dist/index.js",
    "module": "dist/index.modern.js",
    "source": "src/index.ts",
