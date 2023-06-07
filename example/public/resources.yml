@@ -1,0 +1,6 @@
+YamlTest:
+- elem1
+- elem2
+- SubGroup:
+  A: 1
+  B: true
