@@ -1,4 +1,4 @@
-import fetch from "./index";
+import {yamlFetch} from "./index";
 
 describe('yaml-fetch', () => {
     const text = jest.fn();
@@ -18,7 +18,7 @@ describe('yaml-fetch', () => {
             yaml:
             - test
         `));
-        const response = await fetch("dummy.yaml");
+        const response = await yamlFetch("dummy.yaml");
         const yaml = await response.yaml();
         expect(yaml).toEqual({yaml: ["test"]});
     });
