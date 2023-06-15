@@ -11,6 +11,7 @@
    "engines": {
       "node": ">=10"
    },
+   "type": "module",
    "scripts": {
       "build": "microbundle-crl --no-compress --format modern,cjs",
       "start": "microbundle-crl watch --no-compress --format modern,cjs",
@@ -31,6 +32,7 @@
       "@testing-library/react": "^9.5.0",
       "@testing-library/user-event": "^7.2.1",
       "@types/jest": "^25.1.4",
+      "@types/js-yaml": "^4.0.5",
       "@types/node": "^12.12.38",
       "@types/react": "^18.0.10",
       "@types/react-dom": "^18.0.10",
@@ -72,5 +74,8 @@
    "files": [
       "dist"
    ],
-   "homepage": "https://github.com/jacklehamster/yaml-fetch#readme"
+   "homepage": "https://github.com/jacklehamster/yaml-fetch#readme",
+   "dependencies": {
+      "node-fetch": "^3.3.1"
+   }
 }
